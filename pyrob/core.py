@@ -229,6 +229,10 @@ def move_left(n=1):
 @log_invocation
 @public
 def move_right(n=1):
+    """
+
+    :rtype:
+    """
     repeat(n, step_right)
 
 
