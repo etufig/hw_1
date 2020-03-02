@@ -5,9 +5,10 @@ from pyrob.api import *
 
 @task
 def task_5_3():
-     while wall_is_beneath():
-         move_right()
-     w
+    while not wall_is_beneath():
+        move_right()
+
+
 
 
 

@@ -82,10 +82,7 @@ def task(*args, **kwargs):
 
 
 def run_tasks(verbose=False, headless=False):
-    """
 
-    :rtype:
-    """
     logging.basicConfig(level=(logging.DEBUG if verbose else logging.INFO))
 
     global viz
